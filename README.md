@@ -2,5 +2,5 @@
 
 ---
 
-- menjalankan image
+- menjalankan image :
 ```docker run -it (image)```
