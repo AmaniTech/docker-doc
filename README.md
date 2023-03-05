@@ -22,6 +22,8 @@
 - hapus container : 
 ```docker rm (CONTAINER ID)```
 
+29:03
+
 
 
 
