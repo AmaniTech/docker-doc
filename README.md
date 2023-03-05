@@ -1,3 +1,6 @@
 # docker-doc
 
-# untuk anu
+---
+
+- menjalankan image
+```docker run -it (image)```
