@@ -13,6 +13,8 @@
 ```docker ps```
 - mendeteksi container yang pernah kita jalanin :
 ```docker ps -a```
+- melihat semua image yg di load
+```docker images```
 - stop container :
 ```docker container stop (CONTAINER ID)``` 
 - menjalankan container by CONTAINER ID :
@@ -21,6 +23,8 @@
 ```docker exec -it (CONTAINER ID) sh```
 - hapus container : 
 ```docker rm (CONTAINER ID)```
+- set environment variabel pada image : 
+```docker run -it '-e' () ```
 
 29:03
 
