@@ -5,6 +5,12 @@
 
 - hostname :
 ```hostname``` 
+- pull image :
+```docker pull ubuntu:18.04```
+- push image :
+```docker pull name/ubuntu-keren:18.04```
+- mengganti nama tag dan image:
+```docker ubuntu:18.04 ubuntu-keren:v1```
 - menjalankan image / menjalankan container:
 ```docker run -it (image)``` dgn versi ``` docker run -it ubuntu:18.04 sh ```
 - sleep exit :
@@ -32,6 +38,9 @@
 ```docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres```
 
 
+*Cara tau penggunaan resource per container*
+---
+```docker stats (CONTAINER ID)```
 
 
 
