@@ -13,7 +13,7 @@
 ```docker ps```
 - mendeteksi container yang pernah kita jalanin :
 ```docker ps -a```
-- melihat semua image yg di load
+- melihat semua image yg pernah di download : 
 ```docker images```
 - stop container :
 ```docker container stop (CONTAINER ID)``` 
@@ -26,7 +26,12 @@
 - set environment variabel pada image : 
 ```docker run -it '-e' () ```
 
-29:03
+---
+*Contoh pada postgres design port agar bisa diakses local*
+---
+```docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres```
+---
+
 
 
 
