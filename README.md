@@ -26,11 +26,11 @@
 - set environment variabel pada image : 
 ```docker run -it '-e' () ```
 
----
+
 *Contoh pada postgres design port agar bisa diakses local*
 ---
 ```docker run --name some-postgres -p 5432:5432 -e POSTGRES_PASSWORD=mysecretpassword -d postgres```
----
+
 
 
 
